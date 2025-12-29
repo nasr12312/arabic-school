@@ -184,7 +184,7 @@
 <script>
 // ===========================================
 // ⚠️ هام: استبدل الرابط أدناه برابط النشر الخاص بك
-const API_URL = "https://script.google.com/macros/s/AKfycbwWC-xt1AdLhp5OTnWjVt-qqC9rxzR7OPdj7RwVv5ZGYcCUWKbEIN5XRUj0asd-nD9fLg/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbziRaSTjVRhkF15Xti9SV_4zTvXz4uzALbPS7wXLbHJpTQfEwQv5a2oyNOTfS8mNqsVmg/exec";
 // ===========================================
 
 async function callApi(action, data = {}) {
@@ -371,4 +371,5 @@ function loadSettings() {
 function togEx(title, st) { callApi('toggleExamVisibility', {title:title, status:st}).then(r => { alert(r); loadSettings(); }); }
 </script>
 </body>
+
 </html>
